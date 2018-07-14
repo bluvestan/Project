@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test - Suite" duration-ms="80262" started-at="2018-07-13T10:41:11Z" finished-at="2018-07-13T10:42:31Z">
+    <groups>
+    </groups>
+    <test name="testsetone" duration-ms="57045" started-at="2018-07-13T10:41:11Z" finished-at="2018-07-13T10:42:08Z">
+      <class name="com.Balaji.tests.onlinestoretestone">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Balaji.tests.onlinestoretestone@74650e52]" name="init" is-config="true" duration-ms="27556" started-at="2018-07-13T10:41:11Z" finished-at="2018-07-13T10:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testone()[pri:0, instance:com.Balaji.tests.onlinestoretestone@74650e52]" name="testone" duration-ms="5" started-at="2018-07-13T10:41:39Z" finished-at="2018-07-13T10:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Balaji.tests.onlinestoretestone@74650e52]" name="tearDown" is-config="true" duration-ms="720" started-at="2018-07-13T10:41:39Z" finished-at="2018-07-13T10:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Balaji.tests.onlinestoretestone -->
+      <class name="com.Balaji.tests.SecondHomePagetest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Balaji.tests.SecondHomePagetest@15d0c81b]" name="init" is-config="true" duration-ms="28033" started-at="2018-07-13T10:41:39Z" finished-at="2018-07-13T10:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testtwo()[pri:0, instance:com.Balaji.tests.SecondHomePagetest@15d0c81b]" name="testtwo" duration-ms="0" started-at="2018-07-13T10:42:07Z" finished-at="2018-07-13T10:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Balaji.tests.SecondHomePagetest@15d0c81b]" name="tearDown" is-config="true" duration-ms="716" started-at="2018-07-13T10:42:07Z" finished-at="2018-07-13T10:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Balaji.tests.SecondHomePagetest -->
+    </test> <!-- testsetone -->
+    <test name="testsettwo" duration-ms="80262" started-at="2018-07-13T10:41:11Z" finished-at="2018-07-13T10:42:31Z">
+      <class name="com.Balaji.tests.onlinestoretestthree">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Balaji.tests.onlinestoretestthree@80503]" name="init" is-config="true" duration-ms="40221" started-at="2018-07-13T10:41:50Z" finished-at="2018-07-13T10:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testone()[pri:0, instance:com.Balaji.tests.onlinestoretestthree@80503]" name="testone" duration-ms="0" started-at="2018-07-13T10:42:31Z" finished-at="2018-07-13T10:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Balaji.tests.onlinestoretestthree@80503]" name="tearDown" is-config="true" duration-ms="692" started-at="2018-07-13T10:42:31Z" finished-at="2018-07-13T10:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Balaji.tests.onlinestoretestthree -->
+      <class name="com.Balaji.tests.onlinestoretestonefour">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Balaji.tests.onlinestoretestonefour@2f943d71]" name="init" is-config="true" duration-ms="38646" started-at="2018-07-13T10:41:11Z" finished-at="2018-07-13T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testone()[pri:0, instance:com.Balaji.tests.onlinestoretestonefour@2f943d71]" name="testone" duration-ms="3" started-at="2018-07-13T10:41:50Z" finished-at="2018-07-13T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Balaji.tests.onlinestoretestonefour@2f943d71]" name="tearDown" is-config="true" duration-ms="692" started-at="2018-07-13T10:41:50Z" finished-at="2018-07-13T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Balaji.tests.onlinestoretestonefour -->
+    </test> <!-- testsettwo -->
+  </suite> <!-- Test - Suite -->
+</testng-results>

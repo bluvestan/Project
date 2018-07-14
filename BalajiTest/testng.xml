@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test - Suite" parallel="classes" thread-count="2">
+  <test name="Parallel" preserve-order="true">
+    <classes>
+      <class name="com.Balaji.tests.onlinestoretestone"/>
+      <class name="com.Balaji.tests.SecondHomePagetest"/>
+      <class name="com.Balaji.tests.onlinestoretestonefour"/>
+      <class name="com.Balaji.tests.onlinestoretestthree"/>
+    </classes>
+  </test>
+</suite> -->
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test - Suite" parallel="tests" thread-count="2">
+  <test name="testsetone" preserve-order="true">
+    <classes>
+      <class name="com.Balaji.tests.onlinestoretestone"/>
+      <class name="com.Balaji.tests.SecondHomePagetest"/>
+    </classes>
+  </test>
+    <test name="testsettwo" preserve-order="true">
+    <classes>
+      <class name="com.Balaji.tests.onlinestoretestonefour"/>
+      <class name="com.Balaji.tests.onlinestoretestthree"/>
+    </classes>
+  </test>
+</suite>
