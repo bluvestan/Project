@@ -13,7 +13,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test - Suite" parallel="tests" thread-count="2">
-  <test name="testset" preserve-order="true">
+  <test name="testsetone" preserve-order="true">
     <classes>
       <class name="com.Balaji.tests.onlinestoretestone"/>
       <class name="com.Balaji.tests.SecondHomePagetest"/>
